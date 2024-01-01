@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25rem;
+    padding-top: 3.5rem;
+    height: 40rem;
+    width: 60rem;
+}
+.colored{
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+    color: white;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+.white{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    height: 100%;
+    width: 50%;
+    text-align: start;
+}
+.result{
+    padding-top: 2rem;
+}
+.score{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 1px solid white;
+    border-radius: 100%;
+    background-color: white;
+}
